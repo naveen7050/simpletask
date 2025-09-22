@@ -1,16 +1,29 @@
-# simpletasks
+# SimpleTasks (Flutter)
 
-A new Flutter project.
+A minimal task management app built with Flutter. Users can add, view, edit, delete, and mark tasks as done.
+Data is persisted locally using **sqflite**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Add, edit, delete tasks with title + optional details.
+- Swipe-to-delete from task list.
+- Task list shows title and timestamp.
+- Mark tasks as done/undone via checkbox.
+- MVVM architecture using `ChangeNotifier` (ViewModel) + Repository + DAO pattern.
+- Local persistence with **sqflite**.
+- Light/Dark theme support.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+
+- Flutter
+- Provider (state management)
+- sqflite (local DB)
+- path_provider (DB location)
+
+---
+
+## Project Structure
